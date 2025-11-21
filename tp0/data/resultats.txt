@@ -1,0 +1,61 @@
+ 00 Une pierre
+ 01 deux maisons
+ 02 trois ruines
+ 03 quatres fossoyeurs
+ 04 un jardin
+ 05 des fleurs
+ 06 un raton laveur
+ 07 une douzaine d'huîtres un citron un pain
+ 08 un rayon de soleil
+ 09 une lame de fond
+ 10 six musiciens
+ 11 une porte avec son paillasson
+ 12 un monsieur décoré de la légion d'honneur
+ 13 un autre raton laveur
+ 14 un sculpteur qui sculpte des Napoléon
+ 15 la fleur qu'on appelle souci
+ 16 deux amoureux sur un grand lit
+ 17 un receveur des contributions une chaise trois dindons
+ 18 un ecclésiastique un furoncle
+ 19 une guêpe
+ 20 un rein flottant
+ 21 une écurie de courses
+ 22 un fils indigne deux frères dominicains trois sauterelles un strapontin
+ 23 deux filles de joie un oncle Cyprien
+ 24 une Mater dolorosa trois papas gâteau deux chèvres de Monsieur Seguin
+ 25 un talon Louis XV
+ 26 un fauteuil Louis XVI
+ 27 un buffet Henri II deux buffets Henri III trois buffets Henri IV
+ 28 un tiroir dépareillé
+ 29 une pelote de ficelle deux épingles de sûreté un monsieur âgé
+ 30 une Victoire de Samothrace un comptable deux aides-comptables un homme du monde deux chirurgiens trois végétariens
+ 31 un cannibale
+ 32 une expédition coloniale un cheval entier une demi-pinte de bon sang une mouche tsé-tsé
+ 33 un homard à l'américaine un jardin à la française
+ 34 deux pommes à l'anglaise
+ 35 un face-à-main un valet de pied un orphelin un poumon d'acier
+ 36 un jour de gloire
+ 37 une semaine de bonté
+ 38 un mois de Marie
+ 39 une année terrible
+ 40 une minute de silence
+ 41 une seconde d'inattention
+ 42 et...
+ 43 cinq ou six ratons laveurs
+ 44 un petit garçon qui entre à l'école en pleurant
+ 45 un petit garçon qui sort de l'école en riant
+ 46 une fourmi
+ 47 deux pierres à briquet
+ 48 dix-sept éléphants un juge d'instruction en vacances assis sur un pliant
+ 49 un paysage avec beaucoup d'herbe verte dedans
+ 50 une vache
+ 51 un taureau
+ 52 deux belles amours trois grandes orgues un veau marengo
+ 53 un soleil d'Austerlitz
+ 54 un siphon d'eau de Seltz
+ 55 un vin blanc citron
+ 56 un Petit Poucet un grand pardon un calvaire de pierre une échelle de corde
+ 57 deux soeurs latines trois dimensions douze apôtres mille et une nuits trente-deux positions six parties du monde cinq points cardinaux dix ans de bons et loyaux services sept péchés capitaux deux doigts de la main dix gouttes avant chaque repas trente jours de prison dont quinze de cellule cinq minutes d'entracte
+ 58 et...
+ 59 plusieurs ratons laveurs.
+ 60 (Jacques Prévert, Paroles, 1946)
