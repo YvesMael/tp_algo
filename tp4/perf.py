@@ -2,11 +2,16 @@ import matplotlib.pyplot as plt
 from timeit import timeit
 from collections.abc import Callable, Iterator, Iterable
 import functools
-
+import random
+from stupidsort import stupidsort, insertionsort
 
 def input_arrays(n: int=1_000, N: int=1_000, repl: bool=True) -> Iterator[list[int]]:
-    # TODO: à implémenter
-    pass
+    if not repl:
+        for i in range(n):
+            yield random.sample([el for el in range(N)], k=i)
+    else: 
+        for i in range(n):
+            yield random.choices([el for el in range(N)], k=i)  
 
 
 def plot_array(array: list[float], title: str, log: bool = False) -> None:
@@ -23,12 +28,16 @@ def timeit_batch(fun: Callable, inputs: Iterable, setup: str='pass', cumul: int 
 
 
 def sum_reduce(t):
-    return functools.reduce(lambda x, y: x + y, t, initial=0)
+    return functools.reduce(lambda x, y: x + y, t, 0)
 
 
 if __name__ == '__main__':
     # "scénario jouet" de parangonnage, à adapter au fur et à mesure du TP
-    input_arrs = [list(range(100)) for _ in range(20)]
-    result: list[float] = timeit_batch(sum, input_arrs, cumul=4)
-    print(result)
-    plot_array(array=result, title="sum", log=False)
+    # result: list[float] = timeit_batch(sum, input_arrays(), cumul=4)
+    # result_reduce: list[float] = timeit_batch(sum_reduce, input_arrays(), cumul=4)
+    # print(result_reduce)
+    # plot_array(array=result, title="sum", log=False)
+    # plot_array(array=result_reduce, title="sum_reduce", log=False)
+
+    liste = [5,4,10,7,1,6,2,100,50,20,70,0,3,40]
+    print(insertionsort(liste))
