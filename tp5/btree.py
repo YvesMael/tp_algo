@@ -60,15 +60,33 @@ def bt_height(bt: BinaryTree) -> int:
 def bt_size(bt: BinaryTree) -> int:
     def rec(noeud:Node)->int:
         if noeud is None: return 0
-        return 1 + rec(noeud.left),rec(noeud.right)
-    return rec(bt.root) 
+        return 1 + rec(noeud.left) + rec(noeud.right)
+    return rec(bt.root)
 
 def bt_str(bt: BinaryTree) -> str:
-    raise NotImplementedError("bt_str function not implemented yet")
+    
+    def rec(noeud:Node):
+        if noeud is None:
+            return ""
+        return f"{noeud.key} ({rec(noeud.left)}) ({rec(noeud.right)})" if noeud.left or noeud.right else f"{noeud.key}"
+    return rec(bt.root)
 
 
 def bt_new(nodes: list[int | None] | None = None) -> BinaryTree:
-    raise NotImplementedError("bt_new function not implemented yet")
+    if nodes is None or [] or nodes == [None]*len(nodes):
+        return BinaryTree()
+    racine:Node = Node(nodes[0],None, None)
+    arbre:BinaryTree = BinaryTree(racine)
+    
+    def rec(indice:int):
+        if nodes[indice] is None: 
+            return None
+        return Node(nodes[indice], rec(indice*2+1) if indice*2+1<len(nodes) else None, rec(indice*2+2) if indice*2+2 <len(nodes) else None)
+    if len(nodes)>=2:
+        arbre.root.left = rec(1)
+    if len(nodes)>=3:
+        arbre.root.right = rec(2)
+    return arbre
 
 
 def bt_is_bst(bt: BinaryTree) -> bool:
